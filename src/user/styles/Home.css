@@ -1,0 +1,27 @@
+.whole-app {
+  width: 1000px;
+}
+
+.homepage-div {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.homepage-img {
+  width: 444px;
+}
+.quiz-heading {
+  color: #3eb88c;
+}
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.icons-anchor {
+  padding: 10px;
+  font-size: 1rem;
+}
+.button-text {
+  text-decoration: none;
+}

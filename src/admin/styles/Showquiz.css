@@ -1,0 +1,109 @@
+.question-answers-item {
+  border: 1px solid greenyellow;
+  margin: 0 1rem;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxx */
+.quiz-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+.question-no {
+  color: #3eb88c;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.question-title {
+  color: #3eb88c;
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+  line-height: 1.5;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.question-answers-item {
+  margin-top: 1rem;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+  font-weight: 500;
+  background: #ffffff;
+  color: #4a5568;
+  border: 1px solid #3eb88c;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border: transparent;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
+}
+.quizlist-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.quizlist-heading-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quizlist-heading {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.06rem;
+  color: purple;
+  margin-bottom: 2rem;
+  height: fit-content;
+}
+.quizlist-submit-btn {
+  width: 20rem;
+  background: blueviolet;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: transparent;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
+  margin: 1rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+}
+
+.question-answers {
+  background-color: green;
+  color: red;
+}
+.question-ans-selected {
+  background-color: green;
+  color: turquoise;
+  font-size: 1.3rem;
+  letter-spacing: 0.08rem;
+  font-weight: 500;
+}
+
+.correct-answer {
+  background: blue;
+  color: green;
+}
+.marks {
+  display: flex;
+  align-items: baseline;
+}
+.quizsetname-marks {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #3eb88c;
+}
+.quiz-marks {
+  margin-left: 1rem;
+  color: #4a5568;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.marks-span {
+  font-size: 16px;
+  color: tomato;
+  font-weight: 100;
+}

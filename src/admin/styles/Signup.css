@@ -1,0 +1,216 @@
+/* css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} */
+.signup-div {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+.rightsignup-section {
+  width: 50%;
+  background-color: #ffffff;
+}
+.leftsignup-section {
+  width: 40%;
+  background-color: #3dbb94;
+}
+.rightside-signupheader,
+.rightside-signinheader {
+  padding: 20px 20px;
+  color: #3dbb94;
+}
+.leftsidetext-sighinheader {
+  color: white;
+  padding: 20px 20px;
+}
+
+.input-username,
+.input-email,
+.input-password {
+  border: none;
+  width: 250px;
+  background-color: #f5f5f5;
+  border-radius: 3rem;
+  padding: 8px;
+  text-align: center;
+}
+
+.signup-button {
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 4rem;
+  background-color: #3dbb94;
+  padding: 8px 30px;
+  color: #ffffff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.signup-button:hover {
+  background-color: #ffffff;
+  color: #3dbb94;
+  border: 1px solid #3dbb94;
+}
+
+.leftside-header {
+  padding: 20px;
+
+  color: #3dbb94;
+}
+.fas {
+  color: #333333;
+}
+
+/*  */
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  padding: 10px;
+}
+
+.icon {
+  padding: 10px 10px;
+  color: gray;
+  text-align: center;
+}
+.signup-first {
+  color: #f5f5f5;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.signin-first {
+  color: #3dbb94;
+  font-size: 1rem;
+  font-weight: 100;
+}
+/* .span {
+  color: blue;
+} */

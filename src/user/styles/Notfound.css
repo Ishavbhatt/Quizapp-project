@@ -1,0 +1,33 @@
+.header-notfound {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-bottom: 50px;
+  font-size: 1000%;
+  font-weight: bold;
+  margin: 0;
+}
+
+.para-notfound {
+  text-align: center;
+  font-size: 100%;
+  position: relative;
+  bottom: 200px;
+  margin-top: 10rem;
+}
+.button-header-notfound {
+  outline: none;
+  color: white;
+  background-color: #3eb88c;
+  padding: 5px 5px;
+  border-radius: 4px;
+  margin: 0;
+}
+.button-header-notfound:hover {
+  background-color: white;
+  color: #3eb88c;
+  border: 1px solid #3eb88c;
+}
+.button-header-notfound:hover .navbar__link {
+  color: #3eb88c;
+}

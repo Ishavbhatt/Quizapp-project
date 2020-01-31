@@ -1,0 +1,25 @@
+.quizset-text {
+  padding: 10px;
+  color: chartreuse;
+}
+.sign-input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+.first-input {
+  width: 40rem;
+}
+.create-btn {
+  background-color: #3eb88c;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.create-btn:hover {
+  background-color: #ffffff;
+  color: #3eb88c;
+  border: 1px solid #3eb88c;
+}
